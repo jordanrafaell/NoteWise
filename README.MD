@@ -1,7 +1,7 @@
 # **_NoteWise_**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1c6833c5-83fe-4788-a951-3182fd3a4568" alt="NoteWise Logo">
+  <img src="https://github.com/user-attachments/assets/334ac76d-ae1e-4adb-95d2-ef3bf58e4911" alt="NoteWise Logo">
 </p>
 
 **_NoteWise_** é um aplicativo de notas simples e intuitivo, projetado para ajudar você a organizar e salvar suas ideias diretamente no seu dispositivo. Com um design clean e moderno, o **_NoteWise_** traz uma experiência de usuário fluida, permitindo que você crie, edite e exclua suas notas rapidamente, sem depender de uma conexão com a internet.
