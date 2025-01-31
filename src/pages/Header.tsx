@@ -1,6 +1,6 @@
 import { View, Text, Pressable } from 'react-native';
 import Libs from '../utils/libs/libs';
-const { PaperProvider, withTheme, Icon, Constants, Ionicons } = Libs;
+const { PaperProvider, withTheme, Constants, Ionicons } = Libs;
 
 const statusBarHeight = Constants.statusBarHeight;
 
