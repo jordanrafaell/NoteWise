@@ -1,0 +1,13 @@
+alerta de aviso
+https://callstack.github.io/react-native-paper/docs/components/Snackbar/
+
+criar modal
+https://callstack.github.io/react-native-paper/docs/components/Dialog/DialogTitle
+
+botao de ação
+https://callstack.github.io/react-native-paper/docs/components/ToggleButton/
+_________________________________________
+https://callstack.github.io/react-native-paper/docs/components/IconButton/
+
+card
+https://callstack.github.io/react-native-paper/docs/components/Card/CardContent
