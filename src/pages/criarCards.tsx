@@ -8,11 +8,11 @@ export default function CriarCards() {
     <View
       className="flex flex-row w-full h-auto justify-between items-center border mt-9 p-4 rounded-lg"
     >
-      <Text className="text-2xl w-60">
+      <Text className="text-2xl flex-1">
         Today's tasks
       </Text>
 
-      <Pressable className='w-30'>
+      <Pressable>
         <Ionicons name="add-circle" size={45} color="black" />
       </Pressable>
     </View>

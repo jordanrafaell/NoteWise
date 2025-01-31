@@ -3,6 +3,7 @@ import Header from '../pages/Header';
 import Libs from '../utils/libs/libs';
 import Pesquisa from '../pages/pesquisa';
 import CriarCards from '../pages/criarCards';
+import Cards from '../pages/cards';
 const {Constants} = Libs
 
 const statusBarHeight = Constants.statusBarHeight
@@ -18,6 +19,7 @@ export default function Index() {
         <Header />
         <Pesquisa/>
         <CriarCards/>
+        <Cards/>
       </View>
     </ScrollView>
   );

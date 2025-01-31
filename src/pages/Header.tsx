@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <View className="flex flex-row w-full h-auto justify-between items-center">
         <Text
-          className="w-60 text-3xl"
+          className="flex-1 text-3xl"
         >
           Hey, Welcome
         </Text>
