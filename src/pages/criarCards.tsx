@@ -6,7 +6,7 @@ const {} = Libs;
 export default function CriarCards() {
   return (
     <View
-      className="flex flex-row w-full h-auto justify-between items-center rounded-full border mt-9 p-4"
+      className="flex flex-row w-full h-auto justify-between items-center border mt-9 p-4 rounded-lg"
     >
       <Text className="text-2xl w-60">
         Today's tasks
