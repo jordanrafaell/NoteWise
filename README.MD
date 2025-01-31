@@ -1,6 +1,6 @@
 # **_NoteWise_**
 
-# **_ EM DESENVOLVIMENTO _**
+# **EM DESENVOLVIMENTO**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/334ac76d-ae1e-4adb-95d2-ef3bf58e4911" alt="NoteWise Logo">
