@@ -1,15 +1,13 @@
 // libs.tsx
-import { PaperProvider,withTheme, Icon } from 'react-native-paper';
-import { SearchBar } from '@rneui/themed';
+import { PaperProvider,withTheme, Searchbar } from 'react-native-paper';
 import Constants from 'expo-constants'
 import {Ionicons} from '@expo/vector-icons'
 const Libs = {
   PaperProvider,
   withTheme,
-  SearchBar,
-  Icon,
+  Searchbar,
   Constants,
-  Ionicons
+  Ionicons,
 };
 
 export default Libs;
