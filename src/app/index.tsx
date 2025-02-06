@@ -14,13 +14,19 @@ const Stack = createStackNavigator(); // Criando o StackNavigator
 
 function Index() {
   // função para armazenar os novos cardsText
-  const [cards, setCards] = useState<{ id: string; title: string }[]>([]);
+  const [cards, setCards] = useState<{ id: string; title: string }[]>([
+    { id: 'novoTitulo', title: 'Initial Task' },
+  ]);
 
   function criarNovoCard(): void {
     const novoTitulo = `Title ${cards.length + 1}`;
     const novoCard = { id: novoTitulo, title: novoTitulo };
 
     setCards((prevCards) => [...prevCards, novoCard]);
+  }
+
+  function deletetarCard(id: string): void{
+    setCards((prevCards) => prevCards.filter(card => card.id !== id));
   }
 
   return (
@@ -33,7 +39,9 @@ function Index() {
       <FlatList
         data={cards}
         keyExtractor={(item) => item.id}
-        renderItem={({ item }) => <CardStyles title={item.title} />}
+        renderItem={({ item}) =>  (
+          <CardStyles title={item.title} onDelete={() => deletetarCard(item.id)}/>
+        )}
       />
     </View>
   );
