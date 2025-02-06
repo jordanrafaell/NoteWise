@@ -1,3 +1,4 @@
+// Header.tsx
 import { View, Text, Pressable } from 'react-native';
 import Libs from '../utils/libs/libs';
 const { PaperProvider, withTheme, Constants, Ionicons } = Libs;
@@ -7,7 +8,7 @@ const statusBarHeight = Constants.statusBarHeight;
 export default function Header() {
 
   return (
-    <View className="flex flex-row w-full h-auto justify-between items-center">
+    <View className="flex flex-row w-full h-auto justify-between items-center ">
         <Text
           className="flex-1 text-3xl"
         >

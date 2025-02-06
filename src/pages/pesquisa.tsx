@@ -1,3 +1,4 @@
+// pesquisa.tsx
 import { View } from 'react-native';
 import React, { useState } from 'react';
 import Libs from '../utils/libs/libs';
@@ -8,7 +9,7 @@ export default function Pesquisa() {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <View className="w-full h-auto justify-center items-center pt-20">
+    <View className="w-full h-auto justify-center items-center pt-20 ">
       <Searchbar
         placeholder="Search..."
         onChangeText={setSearchQuery}
